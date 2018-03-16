@@ -1,0 +1,6 @@
+
+package esportes; //Classe - minusculo
+
+public class Atleta { //CamelCase
+    private String nome;
+}

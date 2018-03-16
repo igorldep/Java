@@ -1,0 +1,17 @@
+#!/bin/csh
+
+unzip 27-10.zip
+unzip Aula3.zip
+unzip drive-download-20180316T021433Z-001.zip
+unzip exercicio2.rar
+unzip jogodavelha.zip
+unzip PC2 - Aula1.zip
+unzip PC2 - Aula2.zip
+unzip PCII_Pratica1_Igor Luciano de Paula.zip
+unzip PCII_Pratica3_Igor Luciano de Paula.zip
+unzip PCII_Pratica4_Igor Luciano de Paula.zip
+unzip PCII_Pratica5_Igor Luciano de Paula.zip
+unzip PCII_Prática5netbeans.zip
+unzip PCII_Pratica6_Igor Luciano de Paula.zip
+unzip PCII-pratica9-Igor-INCOMPLETO.zip
+unzip Pratica4.zip

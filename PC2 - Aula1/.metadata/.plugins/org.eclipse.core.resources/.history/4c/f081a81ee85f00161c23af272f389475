@@ -1,0 +1,13 @@
+
+package esportes; //pacote - minusculo
+
+public class Atleta { //Classe - CamelCase
+    private String nome;
+    //Visibilidade(public/private/protect*) - Tipo/Classe - nome
+    private double altura;
+    private double peso;
+    /*
+     * Atleta com IMC acima do IMC_MAX é considerado acima do peso
+     */
+    private static final double IMC_MAX = 28;
+}

@@ -1,0 +1,8 @@
+package esportes;
+
+public class AtletaTeste {
+    public static void main (String[] args)){
+    	Atleta a1 = new Atleta(1.72, 77, "Igor");
+    	Atleta a2 = new 
+    }
+}

@@ -1,0 +1,9 @@
+
+package esportes; //pacote - minusculo
+
+public class Atleta { //Classe - CamelCase
+    private String nome;
+    //Visibilidade(public/private/protect*) - Tipo/Classe - nome
+    private double altura;
+    private double peso;
+}
