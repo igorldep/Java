@@ -35,19 +35,12 @@ public class ChannelCounter {
 
         try {
             // Authorize the request.
-            Credential credential = Auth.authorize(scopes, "localizations");
+            Credential credential = Auth.authorize(scopes, "Counter");
 
             // This object is used to make YouTube Data API requests.
             youtube = new YouTube.Builder(Auth.HTTP_TRANSPORT, Auth.JSON_FACTORY, credential)
-                    .setApplicationName("youtube-cmdline-localizations-sample").build();
+                    .setApplicationName("youtube-cmdline-Counter-sample").build();
 
-            // Prompt the user to specify the action of the be achieved.
-            String actionString = getActionFromUser();
-            System.out.println("You chose " + actionString + ".");
-            //Map the user input to the enum values.
-            Action action = Action.valueOf(actionString.toUpperCase());
-
-		
 	    // Channel_ID = Boas Novas
 	    String Channel_ID = "UcopVMAEcdblYjF1-4Z7rcvw";
 
