@@ -8,7 +8,7 @@ import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.model.Channel;
 import com.google.api.services.youtube.model.ChannelListResponse;
 import com.google.api.services.youtube.model.ChannelLocalization;
-import com.google.api.client.util.GenericData.Flags
+import com.google.api.client.util.GenericData.Flags;
 import com.google.common.collect.Lists;
 
 import java.io.BufferedReader;
